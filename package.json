@@ -1,0 +1,36 @@
+{
+  "name": "level-stay",
+  "description": "Persistence for scuttlebutts based on LevelDB",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/level-stay.git"
+  },
+  "homepage": "https://github.com/juliangruber/level-stay",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {
+    "level-store": "~1.4.0",
+    "debug": "~0.7.2"
+  },
+  "devDependencies": {
+    "tap": "*",
+    "scuttlebutt": "~5.5.20",
+    "levelup": "~0.7.0"
+  },
+  "keywords": [
+    "scuttlebutt",
+    "persistence",
+    "leveldb",
+    "stream",
+    "store"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
