@@ -1,7 +1,7 @@
 {
   "name": "level-stay",
   "description": "Persistence for scuttlebutts based on LevelDB",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/juliangruber/level-stay.git"
@@ -12,7 +12,7 @@
     "test": "tap test/*.js"
   },
   "dependencies": {
-    "level-store": "~1.4.0",
+    "level-store": "~3.10.0",
     "debug": "~0.7.2"
   },
   "devDependencies": {
