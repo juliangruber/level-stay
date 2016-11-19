@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "level-store": "~3.11.0",
-    "debug": "~2.3.0"
+    "debug": "~2.3.3"
   },
   "devDependencies": {
     "tap": "*",
